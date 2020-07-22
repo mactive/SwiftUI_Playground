@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403BF0A24C8117600BE5EBB /* WavaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BF0924C8117600BE5EBB /* WavaUIView.swift */; };
 		045F431024C6562E00307046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F430F24C6562E00307046 /* AppDelegate.swift */; };
 		045F431224C6562E00307046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431124C6562E00307046 /* SceneDelegate.swift */; };
 		045F431424C6562E00307046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431324C6562E00307046 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0403BF0924C8117600BE5EBB /* WavaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavaUIView.swift; sourceTree = "<group>"; };
 		045F430C24C6562E00307046 /* swiftUI102.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI102.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045F430F24C6562E00307046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045F431124C6562E00307046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				045F430F24C6562E00307046 /* AppDelegate.swift */,
 				045F431124C6562E00307046 /* SceneDelegate.swift */,
 				045F431324C6562E00307046 /* ContentView.swift */,
+				0403BF0924C8117600BE5EBB /* WavaUIView.swift */,
 				045F431524C6562E00307046 /* Assets.xcassets */,
 				045F431A24C6562E00307046 /* LaunchScreen.storyboard */,
 				045F431D24C6562E00307046 /* Info.plist */,
@@ -149,6 +152,7 @@
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
 				045F431424C6562E00307046 /* ContentView.swift in Sources */,
+				0403BF0A24C8117600BE5EBB /* WavaUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
