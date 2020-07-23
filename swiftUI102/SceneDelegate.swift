@@ -21,7 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
 //        let contentView = ContentView()
-        let contentView = WavaUIView()
+        let contentView = AccessControl()
+        
+        // MARK: -- >> access control Code
+        let myClassObj = AccessViewController()
+        myClassObj.viewDidLoad()
+        myClassObj.printValueOfA()
+        // MARK: -- << end
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
