@@ -21,13 +21,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
 //        let contentView = ContentView()
-        let contentView = AccessControl()
+        let contentView = ContentView()
         
         // MARK: -- >> access control Code
         let myClassObj = AccessViewController()
         myClassObj.viewDidLoad()
         myClassObj.printValueOfA()
         // MARK: -- << end
+        
+        let dataStruct = DataStruck()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

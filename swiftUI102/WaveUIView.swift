@@ -1,5 +1,5 @@
 //
-//  WavaUIView.swift
+//  WaveUIView.swift
 //  swiftUI102
 //
 //  Created by Qian Meng on 2020/7/22.
@@ -57,7 +57,7 @@ struct Wave: Shape {
 }
 
 
-struct WavaUIView: View {
+struct WaveUIView: View {
     @State private var phase = 0.0
     var body: some View {
         ZStack {
@@ -77,8 +77,8 @@ struct WavaUIView: View {
     }
 }
 
-struct WavaUIView_Previews: PreviewProvider {
+struct WaveUIView_Previews: PreviewProvider {
     static var previews: some View {
-        WavaUIView()
+        WaveUIView()
     }
 }

@@ -32,6 +32,7 @@ struct ContentView: View {
             }) {
                 Text("change").foregroundColor(.red)
             }
+            
         }
         .font(.title)
         .foregroundColor(.green)

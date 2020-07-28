@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0403BF0A24C8117600BE5EBB /* WavaUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BF0924C8117600BE5EBB /* WavaUIView.swift */; };
+		0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BF0924C8117600BE5EBB /* WaveUIView.swift */; };
+		043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */; };
 		045F431024C6562E00307046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F430F24C6562E00307046 /* AppDelegate.swift */; };
 		045F431224C6562E00307046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431124C6562E00307046 /* SceneDelegate.swift */; };
 		045F431424C6562E00307046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431324C6562E00307046 /* ContentView.swift */; };
 		045F431624C6562E00307046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045F431524C6562E00307046 /* Assets.xcassets */; };
 		045F431924C6562E00307046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045F431824C6562E00307046 /* Preview Assets.xcassets */; };
 		045F431C24C6562E00307046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045F431A24C6562E00307046 /* LaunchScreen.storyboard */; };
-		04C7929A24C91465006A4B3F /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929924C91465006A4B3F /* AccessControl.swift */; };
+		048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCAD724CFA43200B9E43F /* StackStruct.swift */; };
+		048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCADE24CFAF2400B9E43F /* StruckIndex.swift */; };
+		04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929924C91465006A4B3F /* RemoteImage.swift */; };
 		04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929B24C9150C006A4B3F /* AccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0403BF0924C8117600BE5EBB /* WavaUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavaUIView.swift; sourceTree = "<group>"; };
+		0403BF0924C8117600BE5EBB /* WaveUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUIView.swift; sourceTree = "<group>"; };
+		043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
 		045F430C24C6562E00307046 /* swiftUI102.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI102.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045F430F24C6562E00307046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045F431124C6562E00307046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +32,9 @@
 		045F431824C6562E00307046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		045F431B24C6562E00307046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045F431D24C6562E00307046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C7929924C91465006A4B3F /* AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
+		048DCAD724CFA43200B9E43F /* StackStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStruct.swift; sourceTree = "<group>"; };
+		048DCADE24CFAF2400B9E43F /* StruckIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StruckIndex.swift; sourceTree = "<group>"; };
+		04C7929924C91465006A4B3F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		04C7929B24C9150C006A4B3F /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,16 +68,18 @@
 		045F430E24C6562E00307046 /* swiftUI102 */ = {
 			isa = PBXGroup;
 			children = (
+				048DCAD924CFAEA300B9E43F /* DataStruck */,
 				045F430F24C6562E00307046 /* AppDelegate.swift */,
 				045F431124C6562E00307046 /* SceneDelegate.swift */,
-				04C7929924C91465006A4B3F /* AccessControl.swift */,
+				04C7929924C91465006A4B3F /* RemoteImage.swift */,
 				04C7929B24C9150C006A4B3F /* AccessViewController.swift */,
 				045F431324C6562E00307046 /* ContentView.swift */,
-				0403BF0924C8117600BE5EBB /* WavaUIView.swift */,
+				0403BF0924C8117600BE5EBB /* WaveUIView.swift */,
 				045F431524C6562E00307046 /* Assets.xcassets */,
 				045F431A24C6562E00307046 /* LaunchScreen.storyboard */,
 				045F431D24C6562E00307046 /* Info.plist */,
 				045F431724C6562E00307046 /* Preview Content */,
+				043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */,
 			);
 			path = swiftUI102;
 			sourceTree = "<group>";
@@ -82,6 +90,15 @@
 				045F431824C6562E00307046 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048DCAD924CFAEA300B9E43F /* DataStruck */ = {
+			isa = PBXGroup;
+			children = (
+				048DCAD724CFA43200B9E43F /* StackStruct.swift */,
+				048DCADE24CFAF2400B9E43F /* StruckIndex.swift */,
+			);
+			path = DataStruck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Qian Meng";
 				TargetAttributes = {
 					045F430B24C6562E00307046 = {
@@ -156,11 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */,
+				043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */,
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
-				04C7929A24C91465006A4B3F /* AccessControl.swift in Sources */,
+				048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */,
+				04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */,
 				045F431424C6562E00307046 /* ContentView.swift in Sources */,
-				0403BF0A24C8117600BE5EBB /* WavaUIView.swift in Sources */,
+				0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */,
+				048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +224,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -228,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -264,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
