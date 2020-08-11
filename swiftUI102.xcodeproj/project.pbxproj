@@ -17,8 +17,10 @@
 		045F431C24C6562E00307046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045F431A24C6562E00307046 /* LaunchScreen.storyboard */; };
 		048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCAD724CFA43200B9E43F /* StackStruct.swift */; };
 		048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCADE24CFAF2400B9E43F /* StruckIndex.swift */; };
+		04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */; };
 		04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929924C91465006A4B3F /* RemoteImage.swift */; };
 		04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929B24C9150C006A4B3F /* AccessViewController.swift */; };
+		04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E78ADD24E2211E00111D56 /* SortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +36,10 @@
 		045F431D24C6562E00307046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048DCAD724CFA43200B9E43F /* StackStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStruct.swift; sourceTree = "<group>"; };
 		048DCADE24CFAF2400B9E43F /* StruckIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StruckIndex.swift; sourceTree = "<group>"; };
+		04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListPractice.swift; sourceTree = "<group>"; };
 		04C7929924C91465006A4B3F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		04C7929B24C9150C006A4B3F /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
+		04E78ADD24E2211E00111D56 /* SortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 		048DCAD924CFAEA300B9E43F /* DataStruck */ = {
 			isa = PBXGroup;
 			children = (
-				048DCAD724CFA43200B9E43F /* StackStruct.swift */,
 				048DCADE24CFAF2400B9E43F /* StruckIndex.swift */,
+				048DCAD724CFA43200B9E43F /* StackStruct.swift */,
+				04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */,
+				04E78ADD24E2211E00111D56 /* SortedArray.swift */,
 			);
 			path = DataStruck;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */,
+				04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */,
+				04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */,
 				043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */,
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,

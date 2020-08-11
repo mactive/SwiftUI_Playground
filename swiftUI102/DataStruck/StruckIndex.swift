@@ -12,6 +12,19 @@ import Foundation
 class DataStruck {
     init() {
         // MARK: -- >> Stack Struct
+
+//        let who = WhoIsFast()
+        
+        // MARK: -- >> SortedArray
+        var sortedArray = SortedArray<Int>()
+        sortedArray.insert(8)
+        sortedArray.insert(10)
+        sortedArray.insert(4)
+        print(sortedArray)
+    }
+    
+    func stackTest() {
+        // MARK: -- >> Stack Struct
         var numbers = Stack<Int>()
         numbers.push(2)
         numbers.push(4)
@@ -40,6 +53,5 @@ class DataStruck {
         print("peek: \(numbers3.peek()!)")
         print(numbers3.contains(8))
         print(numbers3)
-
     }
 }
