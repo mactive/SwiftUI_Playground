@@ -16,11 +16,19 @@ class DataStruck {
 //        let who = WhoIsFast()
         
         // MARK: -- >> SortedArray
-        var sortedArray = SortedArray<Int>()
+        var sortedArray = SortedArray<Int>(comparator: >)
         sortedArray.insert(8)
         sortedArray.insert(10)
         sortedArray.insert(4)
+        sortedArray.insert(1)
         print(sortedArray)
+        
+        var sortedArrayDefaultComparator = SortedArray<Double>()
+        sortedArrayDefaultComparator.insert(3.8)
+        sortedArrayDefaultComparator.insert(4.1)
+        sortedArrayDefaultComparator.insert(1.2)
+        sortedArrayDefaultComparator.insert(6.9)
+        print(sortedArrayDefaultComparator)
     }
     
     func stackTest() {
