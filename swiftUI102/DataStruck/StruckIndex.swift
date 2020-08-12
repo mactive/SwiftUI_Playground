@@ -15,6 +15,10 @@ class DataStruck {
 
 //        let who = WhoIsFast()
         
+        let tt = generics()
+        
+        let t1 = checkPriorityClass()
+        
         // MARK: -- >> SortedArray
         var sortedArray = SortedArray<Int>(comparator: >)
         sortedArray.insert(8)

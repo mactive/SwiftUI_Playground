@@ -21,6 +21,8 @@
 		04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929924C91465006A4B3F /* RemoteImage.swift */; };
 		04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929B24C9150C006A4B3F /* AccessViewController.swift */; };
 		04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E78ADD24E2211E00111D56 /* SortedArray.swift */; };
+		04E9037224E412100010259A /* generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037124E412100010259A /* generics.swift */; };
+		04E9037424E415870010259A /* generalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037324E415870010259A /* generalProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		04C7929924C91465006A4B3F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		04C7929B24C9150C006A4B3F /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
 		04E78ADD24E2211E00111D56 /* SortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
+		04E9037124E412100010259A /* generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics.swift; sourceTree = "<group>"; };
+		04E9037324E415870010259A /* generalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		045F430E24C6562E00307046 /* swiftUI102 */ = {
 			isa = PBXGroup;
 			children = (
+				04E9037024E411F00010259A /* Advanced */,
 				048DCAD924CFAEA300B9E43F /* DataStruck */,
 				045F430F24C6562E00307046 /* AppDelegate.swift */,
 				045F431124C6562E00307046 /* SceneDelegate.swift */,
@@ -105,6 +110,15 @@
 				04E78ADD24E2211E00111D56 /* SortedArray.swift */,
 			);
 			path = DataStruck;
+			sourceTree = "<group>";
+		};
+		04E9037024E411F00010259A /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				04E9037124E412100010259A /* generics.swift */,
+				04E9037324E415870010259A /* generalProtocol.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */,
+				04E9037424E415870010259A /* generalProtocol.swift in Sources */,
 				04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */,
 				04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */,
 				043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */,
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
+				04E9037224E412100010259A /* generics.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
 				048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */,
 				04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */,
