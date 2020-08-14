@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BF0924C8117600BE5EBB /* WaveUIView.swift */; };
 		043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */; };
+		0452A09124E4267C00F79C40 /* generics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09024E4267C00F79C40 /* generics2.swift */; };
+		0452A09424E4CE9F00F79C40 /* generics3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09324E4CE9F00F79C40 /* generics3.swift */; };
+		0452A09624E6111400F79C40 /* optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09524E6111400F79C40 /* optional.swift */; };
 		045F431024C6562E00307046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F430F24C6562E00307046 /* AppDelegate.swift */; };
 		045F431224C6562E00307046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431124C6562E00307046 /* SceneDelegate.swift */; };
 		045F431424C6562E00307046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F431324C6562E00307046 /* ContentView.swift */; };
@@ -28,6 +31,10 @@
 /* Begin PBXFileReference section */
 		0403BF0924C8117600BE5EBB /* WaveUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUIView.swift; sourceTree = "<group>"; };
 		043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
+		04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftUI102.entitlements; sourceTree = "<group>"; };
+		0452A09024E4267C00F79C40 /* generics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics2.swift; sourceTree = "<group>"; };
+		0452A09324E4CE9F00F79C40 /* generics3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics3.swift; sourceTree = "<group>"; };
+		0452A09524E6111400F79C40 /* optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optional.swift; sourceTree = "<group>"; };
 		045F430C24C6562E00307046 /* swiftUI102.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI102.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045F430F24C6562E00307046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045F431124C6562E00307046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +83,7 @@
 		045F430E24C6562E00307046 /* swiftUI102 */ = {
 			isa = PBXGroup;
 			children = (
+				04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */,
 				04E9037024E411F00010259A /* Advanced */,
 				048DCAD924CFAEA300B9E43F /* DataStruck */,
 				045F430F24C6562E00307046 /* AppDelegate.swift */,
@@ -117,6 +125,9 @@
 			children = (
 				04E9037124E412100010259A /* generics.swift */,
 				04E9037324E415870010259A /* generalProtocol.swift */,
+				0452A09024E4267C00F79C40 /* generics2.swift */,
+				0452A09324E4CE9F00F79C40 /* generics3.swift */,
+				0452A09524E6111400F79C40 /* optional.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -193,11 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */,
+				0452A09424E4CE9F00F79C40 /* generics3.swift in Sources */,
 				04E9037424E415870010259A /* generalProtocol.swift in Sources */,
 				04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */,
 				04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */,
 				043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */,
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
+				0452A09124E4267C00F79C40 /* generics2.swift in Sources */,
 				04E9037224E412100010259A /* generics.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
 				048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */,
@@ -205,6 +218,7 @@
 				045F431424C6562E00307046 /* ContentView.swift in Sources */,
 				0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */,
 				048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */,
+				0452A09624E6111400F79C40 /* optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,17 +356,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = swiftUI102/swiftUI102.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI102/Preview Content\"";
-				DEVELOPMENT_TEAM = 6ER4569E5Z;
+				DEVELOPMENT_TEAM = PYA7HDDS6Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftUI102/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinktube.swiftUI102;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,17 +379,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = swiftUI102/swiftUI102.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI102/Preview Content\"";
-				DEVELOPMENT_TEAM = 6ER4569E5Z;
+				DEVELOPMENT_TEAM = PYA7HDDS6Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = swiftUI102/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinktube.swiftUI102;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

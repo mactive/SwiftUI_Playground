@@ -15,11 +15,22 @@ class DataStruck {
 
 //        let who = WhoIsFast()
         
+        // MARK: -- Generics
+        /**
         let tt = generics()
-        
+
         let t1 = checkPriorityClass()
+
+        let generics2Struct = generics2()
+
+        let generics3Struct = generics3()
+         */
+        
+        // MRAK: -- Optional
+        let o1 = optionalClass()
         
         // MARK: -- >> SortedArray
+        /**
         var sortedArray = SortedArray<Int>(comparator: >)
         sortedArray.insert(8)
         sortedArray.insert(10)
@@ -33,6 +44,7 @@ class DataStruck {
         sortedArrayDefaultComparator.insert(1.2)
         sortedArrayDefaultComparator.insert(6.9)
         print(sortedArrayDefaultComparator)
+         */
     }
     
     func stackTest() {
