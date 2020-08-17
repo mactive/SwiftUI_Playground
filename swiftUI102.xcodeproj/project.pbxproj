@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403BF0924C8117600BE5EBB /* WaveUIView.swift */; };
 		043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */; };
+		044233AB24EA2B7200479BAD /* stringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044233AA24EA2B7200479BAD /* stringInterpolation.swift */; };
 		0452A09124E4267C00F79C40 /* generics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09024E4267C00F79C40 /* generics2.swift */; };
 		0452A09424E4CE9F00F79C40 /* generics3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09324E4CE9F00F79C40 /* generics3.swift */; };
 		0452A09624E6111400F79C40 /* optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09524E6111400F79C40 /* optional.swift */; };
@@ -32,6 +33,7 @@
 		0403BF0924C8117600BE5EBB /* WaveUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUIView.swift; sourceTree = "<group>"; };
 		043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
 		04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftUI102.entitlements; sourceTree = "<group>"; };
+		044233AA24EA2B7200479BAD /* stringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringInterpolation.swift; sourceTree = "<group>"; };
 		0452A09024E4267C00F79C40 /* generics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics2.swift; sourceTree = "<group>"; };
 		0452A09324E4CE9F00F79C40 /* generics3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics3.swift; sourceTree = "<group>"; };
 		0452A09524E6111400F79C40 /* optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optional.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				0452A09024E4267C00F79C40 /* generics2.swift */,
 				0452A09324E4CE9F00F79C40 /* generics3.swift */,
 				0452A09524E6111400F79C40 /* optional.swift */,
+				044233AA24EA2B7200479BAD /* stringInterpolation.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
 				0452A09124E4267C00F79C40 /* generics2.swift in Sources */,
 				04E9037224E412100010259A /* generics.swift in Sources */,
+				044233AB24EA2B7200479BAD /* stringInterpolation.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
 				048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */,
 				04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */,

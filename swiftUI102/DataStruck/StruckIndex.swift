@@ -27,7 +27,10 @@ class DataStruck {
          */
         
         // MRAK: -- Optional
-        let o1 = optionalClass()
+//        let o1 = optionalClass()
+        
+        // MARK:-- StringInterpolation
+        let s1 = StringInterpolation()
         
         // MARK: -- >> SortedArray
         /**
