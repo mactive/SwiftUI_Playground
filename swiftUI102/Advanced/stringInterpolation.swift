@@ -10,6 +10,21 @@
 
 import Foundation
 
+enum PolatonArrayAction: CustomStringConvertible {
+    case elements
+    case sum
+    case average
+    
+    var description : String {
+        switch self {
+        // Use Internationalization, as appropriate.
+        case .elements: return ".elements"
+        case .sum: return ".sum"
+        case .average: return ".average"
+        }
+    }
+}
+
 
 extension String.StringInterpolation {
 //    mutating func appendInterpolition(_ value: String) {
@@ -64,6 +79,29 @@ extension String.StringInterpolation {
             appendLiteral(str)
         }
     }
+    
+    // Challenges
+    mutating func appendInterpolation(_ value: URL) {
+        let htmlString = value.path
+        appendLiteral(htmlString)
+    }
+    
+    // enum
+    mutating func appendInterpolation(_ values: [Int], action: PolatonArrayAction = .elements ) {
+        var result: String
+        switch action {
+            case .elements:
+                let resultStr = values.map{ String($0) }
+                result = resultStr.joined(separator: " - ")
+            case .sum:
+                let sum = values.reduce(0, +)
+                result = String(sum)
+            case .average:
+                let avarage = values.reduce(0, +) / values.count
+                result = String(avarage)
+        }
+        appendLiteral("ArrayEnum: " + action.description + " " + result)
+    }
 }
 
 class StringInterpolation {
@@ -78,6 +116,8 @@ class StringInterpolation {
         testMultiple()
         testPowerfeature()
         testEncodable()
+        testURL()
+        testArrayEnum()
     }
     
     func test01() {
@@ -121,6 +161,18 @@ class StringInterpolation {
         
         let user2 = UserStringStruct()
         print("Struct dump: \(user2)")
+    }
+    
+    func testURL() {
+        let url = URL.init(string: "http://www.google.com/dadfeore")
+        print("URL: \(url)")
+    }
+    
+    func testArrayEnum() {
+        let arr = [1, 2,3,4,5]
+        print("\(arr, action: .elements)")
+        print("\(arr, action: .sum)")
+        print("\(arr, action: .average)")
     }
 }
 
