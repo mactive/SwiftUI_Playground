@@ -4,10 +4,11 @@
 //
 //  Created by Qian Meng on 2020/8/17.
 //  Copyright © 2020 Qian Meng. All rights reserved.
+
+// https://www.hackingwithswift.com/plus/advanced-swift/advanced-string-interpolation-part-one
 //
 
 import Foundation
-
 
 
 extension String.StringInterpolation {
@@ -43,6 +44,26 @@ extension String.StringInterpolation {
         formatter.timeStyle = time
         appendLiteral(formatter.string(from: value))
     }
+    
+    // 参数支持闭包 或者 字符串
+    mutating func appendInterpolation(
+        _ function: @autoclosure () -> CustomStringConvertible,
+        count: Int,
+        separator: String = ", "
+    ) {
+        let result = (0..<count).map{ _ in function().description }
+        appendLiteral(result.joined(separator: separator))
+    }
+    
+    // Working with Codable
+    mutating func appendInterpolation<T: Encodable>(_ value: T) {
+        let encoder = JSONEncoder()
+        if let result = try? encoder.encode(value) {
+            let str = String(decoding: result, as: UTF8.self)
+            appendLiteral("Codable: ")
+            appendLiteral(str)
+        }
+    }
 }
 
 class StringInterpolation {
@@ -55,6 +76,8 @@ class StringInterpolation {
         testAppendInt()
         testOverloads()
         testMultiple()
+        testPowerfeature()
+        testEncodable()
     }
     
     func test01() {
@@ -85,4 +108,33 @@ class StringInterpolation {
         print("The date time long style is \(Date(), date: .long, time: .long)")
         print("The date time short style is \(Date(), date: .short, time: .short)")
     }
+    
+    func testPowerfeature() {
+        print("Haters gonna \("hate", count: 5, separator: " !!! ")")
+        print("Random numbers \(Int.random(in: 1...50), count: 8)")
+    }
+    
+    func testEncodable() {
+        let user1 = UserStringClass()
+        print("Class dump: \(user1)")
+        
+        
+        let user2 = UserStringStruct()
+        print("Struct dump: \(user2)")
+    }
 }
+
+
+class UserStringClass: Encodable {
+    let name = "Taylor Swift"
+    let age = 26
+    let emailAddress = "taylor@swift.com"
+}
+
+struct UserStringStruct: Encodable {
+    let name = "Taylor Swift"
+    let age = 26
+    let emailAddress = "taylor@swift.com"
+}
+
+
