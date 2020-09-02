@@ -32,6 +32,11 @@ class DataStruck {
         // MARK:-- StringInterpolation
         let s1 = StringInterpolation()
         
+        // MARK: -- found
+        let wh1 = whileLoop()
+        
+        tryAdvance()
+        
         // MARK: -- >> SortedArray
         /**
         var sortedArray = SortedArray<Int>(comparator: >)
@@ -48,6 +53,10 @@ class DataStruck {
         sortedArrayDefaultComparator.insert(6.9)
         print(sortedArrayDefaultComparator)
          */
+    }
+    
+    func tryAdvance() {
+        let tryBox = TryBox()
     }
     
     func stackTest() {
