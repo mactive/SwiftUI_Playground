@@ -26,6 +26,9 @@ struct ContentView: View {
                 Text(user.name)
                 Text(user.name)
             }
+//            WaveUIView()
+//            PieChartView()
+            BarChartView()
             
             Button(action: {
                 self.user.changeName("TT")

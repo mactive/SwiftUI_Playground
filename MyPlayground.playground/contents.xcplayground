@@ -5,5 +5,7 @@
         <page name='Untitled Page'/>
         <page name='Optional'/>
         <page name='Struct'/>
+        <page name='OptionalString'/>
+        <page name='optionalClass'/>
     </pages>
 </playground>

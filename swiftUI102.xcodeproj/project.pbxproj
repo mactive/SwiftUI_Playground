@@ -11,6 +11,7 @@
 		043F729524CC3E7400A56E17 /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F729424CC3E7400A56E17 /* ColorPicker_Intro.swift */; };
 		044233AB24EA2B7200479BAD /* stringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044233AA24EA2B7200479BAD /* stringInterpolation.swift */; };
 		044233AD24EB997500479BAD /* whileloop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044233AC24EB997500479BAD /* whileloop.swift */; };
+		044D994F2512B95C00685A12 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D994E2512B95C00685A12 /* BarChart.swift */; };
 		0452A09124E4267C00F79C40 /* generics2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09024E4267C00F79C40 /* generics2.swift */; };
 		0452A09424E4CE9F00F79C40 /* generics3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09324E4CE9F00F79C40 /* generics3.swift */; };
 		0452A09624E6111400F79C40 /* optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452A09524E6111400F79C40 /* optional.swift */; };
@@ -20,6 +21,7 @@
 		045F431624C6562E00307046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045F431524C6562E00307046 /* Assets.xcassets */; };
 		045F431924C6562E00307046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045F431824C6562E00307046 /* Preview Assets.xcassets */; };
 		045F431C24C6562E00307046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045F431A24C6562E00307046 /* LaunchScreen.storyboard */; };
+		04671A7B2508659E00F39888 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04671A7A2508659E00F39888 /* PieChart.swift */; };
 		048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCAD724CFA43200B9E43F /* StackStruct.swift */; };
 		048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DCADE24CFAF2400B9E43F /* StruckIndex.swift */; };
 		04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */; };
@@ -37,6 +39,7 @@
 		04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftUI102.entitlements; sourceTree = "<group>"; };
 		044233AA24EA2B7200479BAD /* stringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringInterpolation.swift; sourceTree = "<group>"; };
 		044233AC24EB997500479BAD /* whileloop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whileloop.swift; sourceTree = "<group>"; };
+		044D994E2512B95C00685A12 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		0452A09024E4267C00F79C40 /* generics2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics2.swift; sourceTree = "<group>"; };
 		0452A09324E4CE9F00F79C40 /* generics3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics3.swift; sourceTree = "<group>"; };
 		0452A09524E6111400F79C40 /* optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optional.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		045F431824C6562E00307046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		045F431B24C6562E00307046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045F431D24C6562E00307046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04671A7A2508659E00F39888 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		048DCAD724CFA43200B9E43F /* StackStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStruct.swift; sourceTree = "<group>"; };
 		048DCADE24CFAF2400B9E43F /* StruckIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StruckIndex.swift; sourceTree = "<group>"; };
 		04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListPractice.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		045F430E24C6562E00307046 /* swiftUI102 */ = {
 			isa = PBXGroup;
 			children = (
+				04671A792508658500F39888 /* SwiftUI */,
 				04FFEBC924FD9BEA00AE0AFF /* New Group */,
 				04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */,
 				04E9037024E411F00010259A /* Advanced */,
@@ -100,7 +105,6 @@
 				04C7929924C91465006A4B3F /* RemoteImage.swift */,
 				04C7929B24C9150C006A4B3F /* AccessViewController.swift */,
 				045F431324C6562E00307046 /* ContentView.swift */,
-				0403BF0924C8117600BE5EBB /* WaveUIView.swift */,
 				045F431524C6562E00307046 /* Assets.xcassets */,
 				045F431A24C6562E00307046 /* LaunchScreen.storyboard */,
 				045F431D24C6562E00307046 /* Info.plist */,
@@ -116,6 +120,16 @@
 				045F431824C6562E00307046 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04671A792508658500F39888 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0403BF0924C8117600BE5EBB /* WaveUIView.swift */,
+				04671A7A2508659E00F39888 /* PieChart.swift */,
+				044D994E2512B95C00685A12 /* BarChart.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		048DCAD924CFAEA300B9E43F /* DataStruck */ = {
@@ -231,6 +245,7 @@
 				045F431024C6562E00307046 /* AppDelegate.swift in Sources */,
 				0452A09124E4267C00F79C40 /* generics2.swift in Sources */,
 				04E9037224E412100010259A /* generics.swift in Sources */,
+				04671A7B2508659E00F39888 /* PieChart.swift in Sources */,
 				044233AB24EA2B7200479BAD /* stringInterpolation.swift in Sources */,
 				045F431224C6562E00307046 /* SceneDelegate.swift in Sources */,
 				048DCADF24CFAF2400B9E43F /* StruckIndex.swift in Sources */,
@@ -240,6 +255,7 @@
 				0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */,
 				044233AD24EB997500479BAD /* whileloop.swift in Sources */,
 				048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */,
+				044D994F2512B95C00685A12 /* BarChart.swift in Sources */,
 				0452A09624E6111400F79C40 /* optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
