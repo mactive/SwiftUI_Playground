@@ -36,7 +36,7 @@ class DataStruck {
         let wh1 = whileLoop()
         
         tryAdvance()
-        
+        tryTree()
         // MARK: -- >> SortedArray
         /**
         var sortedArray = SortedArray<Int>(comparator: >)
@@ -57,6 +57,10 @@ class DataStruck {
     
     func tryAdvance() {
         let tryBox = TryBox()
+    }
+    
+    func tryTree() {
+        let tryTree = TreeSample()
     }
     
     func stackTest() {

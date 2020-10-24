@@ -27,6 +27,7 @@
 		04A92C8F24D04B57006D0B9F /* LinkedListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */; };
 		04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929924C91465006A4B3F /* RemoteImage.swift */; };
 		04C7929C24C9150C006A4B3F /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7929B24C9150C006A4B3F /* AccessViewController.swift */; };
+		04C9B2C725447F11004AAA5D /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9B2C625447F11004AAA5D /* Tree.swift */; };
 		04E78ADE24E2211E00111D56 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E78ADD24E2211E00111D56 /* SortedArray.swift */; };
 		04E9037224E412100010259A /* generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037124E412100010259A /* generics.swift */; };
 		04E9037424E415870010259A /* generalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037324E415870010259A /* generalProtocol.swift */; };
@@ -57,6 +58,7 @@
 		04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListPractice.swift; sourceTree = "<group>"; };
 		04C7929924C91465006A4B3F /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		04C7929B24C9150C006A4B3F /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
+		04C9B2C625447F11004AAA5D /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		04E78ADD24E2211E00111D56 /* SortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
 		04E9037124E412100010259A /* generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generics.swift; sourceTree = "<group>"; };
 		04E9037324E415870010259A /* generalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalProtocol.swift; sourceTree = "<group>"; };
@@ -99,7 +101,7 @@
 				04FFEBC924FD9BEA00AE0AFF /* New Group */,
 				04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */,
 				04E9037024E411F00010259A /* Advanced */,
-				048DCAD924CFAEA300B9E43F /* DataStruck */,
+				048DCAD924CFAEA300B9E43F /* DataStructure */,
 				045F430F24C6562E00307046 /* AppDelegate.swift */,
 				045F431124C6562E00307046 /* SceneDelegate.swift */,
 				04C7929924C91465006A4B3F /* RemoteImage.swift */,
@@ -132,15 +134,16 @@
 			path = SwiftUI;
 			sourceTree = "<group>";
 		};
-		048DCAD924CFAEA300B9E43F /* DataStruck */ = {
+		048DCAD924CFAEA300B9E43F /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
 				048DCADE24CFAF2400B9E43F /* StruckIndex.swift */,
 				048DCAD724CFA43200B9E43F /* StackStruct.swift */,
 				04A92C8E24D04B57006D0B9F /* LinkedListPractice.swift */,
 				04E78ADD24E2211E00111D56 /* SortedArray.swift */,
+				04C9B2C625447F11004AAA5D /* Tree.swift */,
 			);
-			path = DataStruck;
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 		04E9037024E411F00010259A /* Advanced */ = {
@@ -253,6 +256,7 @@
 				045F431424C6562E00307046 /* ContentView.swift in Sources */,
 				04FFEBCB24FD9C0E00AE0AFF /* ultimateBoxType.swift in Sources */,
 				0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */,
+				04C9B2C725447F11004AAA5D /* Tree.swift in Sources */,
 				044233AD24EB997500479BAD /* whileloop.swift in Sources */,
 				048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */,
 				044D994F2512B95C00685A12 /* BarChart.swift in Sources */,

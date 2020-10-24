@@ -55,6 +55,7 @@ struct BarChart: View {
                         Text(String(Int(maxValue / 10 * Double(i))))
                             .padding(.horizontal)
                             .animation(nil)
+                            .font(.subheadline)
                         Spacer()
                     }
                 }
@@ -85,10 +86,13 @@ struct BarChartView: View {
 
     var data: [BarDataPoint] {
         [
-            BarDataPoint(id: 1, value: redAmount, color: .red, title: "Maybe"),
+            BarDataPoint(id: 1, value: redAmount, color: .red, title: "Mayb"),
             BarDataPoint(id: 2, value: yellowAmount, color: .yellow, title: "Yes"),
             BarDataPoint(id: 3, value: greenAmount, color: .green, title: "NO"),
-            BarDataPoint(id: 4, value: blueAmount, color: .blue, title: "N/A")
+            BarDataPoint(id: 4, value: blueAmount, color: .blue, title: "N/A"),
+            BarDataPoint(id: 5, value: greenAmount, color: .green, title: "No1"),
+            BarDataPoint(id: 6, value: yellowAmount, color: .yellow, title: "No2"),
+            BarDataPoint(id: 7, value: blueAmount, color: .blue, title: "No3")
         ]
     }
     
