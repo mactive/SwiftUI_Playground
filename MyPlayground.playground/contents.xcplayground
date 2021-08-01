@@ -7,5 +7,7 @@
         <page name='Struct'/>
         <page name='OptionalString'/>
         <page name='optionalClass'/>
+        <page name='sixtySeconds'/>
+        <page name='Unwrapping'/>
     </pages>
 </playground>
