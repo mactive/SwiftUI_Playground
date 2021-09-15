@@ -33,6 +33,8 @@
 		04E9037224E412100010259A /* generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037124E412100010259A /* generics.swift */; };
 		04E9037424E415870010259A /* generalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9037324E415870010259A /* generalProtocol.swift */; };
 		04FFEBCB24FD9C0E00AE0AFF /* ultimateBoxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFEBCA24FD9C0E00AE0AFF /* ultimateBoxType.swift */; };
+		2B6DA79F26F0F57800D42B06 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DA79E26F0F57800D42B06 /* TabView1.swift */; };
+		2B6DA7A126F0F8A900D42B06 /* Stepper1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DA7A026F0F8A900D42B06 /* Stepper1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		04E9037324E415870010259A /* generalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalProtocol.swift; sourceTree = "<group>"; };
 		04FFEBC824FD915800AE0AFF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04FFEBCA24FD9C0E00AE0AFF /* ultimateBoxType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultimateBoxType.swift; sourceTree = "<group>"; };
+		2B6DA79E26F0F57800D42B06 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
+		2B6DA7A026F0F8A900D42B06 /* Stepper1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,8 @@
 		045F430E24C6562E00307046 /* swiftUI102 */ = {
 			isa = PBXGroup;
 			children = (
-				04671A792508658500F39888 /* SwiftUI */,
-				04FFEBC924FD9BEA00AE0AFF /* New Group */,
+				2B6DA79D26F0F56000D42B06 /* basicView */,
+				04671A792508658500F39888 /* SwiftUIChart */,
 				04418B2924E41EFE00DCA687 /* swiftUI102.entitlements */,
 				04E9037024E411F00010259A /* Advanced */,
 				048DCAD924CFAEA300B9E43F /* DataStructure */,
@@ -126,7 +130,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04671A792508658500F39888 /* SwiftUI */ = {
+		04671A792508658500F39888 /* SwiftUIChart */ = {
 			isa = PBXGroup;
 			children = (
 				0403BF0924C8117600BE5EBB /* WaveUIView.swift */,
@@ -134,7 +138,7 @@
 				044D994E2512B95C00685A12 /* BarChart.swift */,
 				04611D9A26B63C5D00F5A6EA /* GeometryReaderView.swift */,
 			);
-			path = SwiftUI;
+			path = SwiftUIChart;
 			sourceTree = "<group>";
 		};
 		048DCAD924CFAEA300B9E43F /* DataStructure */ = {
@@ -164,11 +168,13 @@
 			path = Advanced;
 			sourceTree = "<group>";
 		};
-		04FFEBC924FD9BEA00AE0AFF /* New Group */ = {
+		2B6DA79D26F0F56000D42B06 /* basicView */ = {
 			isa = PBXGroup;
 			children = (
+				2B6DA79E26F0F57800D42B06 /* TabView1.swift */,
+				2B6DA7A026F0F8A900D42B06 /* Stepper1.swift */,
 			);
-			path = "New Group";
+			path = basicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,10 +264,12 @@
 				04C7929A24C91465006A4B3F /* RemoteImage.swift in Sources */,
 				045F431424C6562E00307046 /* ContentView.swift in Sources */,
 				04FFEBCB24FD9C0E00AE0AFF /* ultimateBoxType.swift in Sources */,
+				2B6DA7A126F0F8A900D42B06 /* Stepper1.swift in Sources */,
 				0403BF0A24C8117600BE5EBB /* WaveUIView.swift in Sources */,
 				04C9B2C725447F11004AAA5D /* Tree.swift in Sources */,
 				044233AD24EB997500479BAD /* whileloop.swift in Sources */,
 				04611D9B26B63C5D00F5A6EA /* GeometryReaderView.swift in Sources */,
+				2B6DA79F26F0F57800D42B06 /* TabView1.swift in Sources */,
 				048DCAD824CFA43200B9E43F /* StackStruct.swift in Sources */,
 				044D994F2512B95C00685A12 /* BarChart.swift in Sources */,
 				0452A09624E6111400F79C40 /* optional.swift in Sources */,
